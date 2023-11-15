@@ -1,0 +1,15 @@
+
+/* Global Reset */
+*    {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue;
+}
+
+.container {
+    width: 800px;
+}

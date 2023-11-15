@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %} {% endblock title %} Random Access Moose</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+    <section class="section">
+        <div class="container">
+            <header class="header-main">
+                <h1>
+                    Random Access Moose
+                </h1>
+                <nav>
+                    navitem
+                    navitem2
+                    navitem3
+                </nav>
+            </header>
+            {% block content %}
+            {% endblock %}
+        </div>
+    </section>
+
+<footer>
+    <p class="footer-text">&copy; 2023 Thalamoosie</p>
+</footer>
+
+</body>
+
+</html>
